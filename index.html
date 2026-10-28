@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Browser Session Recovery</title>
+<link rel="stylesheet" href="style.css">
+</head><body>
+<header><h1>🌐 Browser Session Recovery System</h1></header>
+<div class="container">
+<div class="controls">
+<input id="url" placeholder="Enter website URL">
+<button onclick="openTab()">Open Tab</button>
+<button onclick="closeTab()">Close Current</button>
+<button onclick="recoverTab()">Recover</button>
+<button onclick="saveSession()">Save Session</button>
+</div>
+<div class="grid">
+<div class="card"><h2>Open Tabs</h2><ul id="openList"></ul></div>
+<div class="card"><h2>Recently Closed</h2><ul id="closedList"></ul></div>
+</div>
+<div class="grid">
+<div class="card"><h2>Browsing History</h2><ul id="historyList"></ul></div>
+<div class="card"><h2>Statistics</h2>
+<p>Total Open: <span id="statOpen">0</span></p>
+<p>Closed: <span id="statClosed">0</span></p>
+<p>Recovered: <span id="statRecovered">0</span></p>
+</div>
+</div>
+</div>
+<script src="script.js"></script>
+</body></html>

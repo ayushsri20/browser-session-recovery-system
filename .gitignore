@@ -1,0 +1,19 @@
+# OS/editor files
+.DS_Store
+.vscode/
+.idea/
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+
+# Local browser/session data and exports
+session-data/
+browser-profiles/
+cookies.json
+sessions.json
